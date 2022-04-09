@@ -29,3 +29,7 @@
 .nav>nav>ul>li:last-child{
     margin-right: 0;
 }
+
+.nav>nav>ul>li:hover{
+    color: var(--bg-secondary);
+}
