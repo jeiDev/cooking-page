@@ -1,1 +1,53 @@
- 
+.containerNav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100px;
+}
+
+.boxLogo>p{
+    font-size: .9em;
+    color: rgba(0,0,0,.6);
+}
+
+.boxNav>nav>ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.boxNav>nav>ul>li{
+    margin-left: 60px;
+    font-weight: 500;
+    font-size: .9em;
+}
+
+.boxNav>nav>ul>li:first-child{
+    margin-left: 0;
+}
+
+.copyright{
+    position: relative;
+    height: 90px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid rgba(0,0,0,.1);
+} 
+
+.copyright>p{
+    font-size: .8em;
+    font-family: 'Eudoxus Sans 500';
+}
+
+.copyright>p>span{
+    color: rgba(0,0,0,.7)
+}
+
+.copyright>p>span.byTitle{
+    color: var(--bg-secondary);
+}
+
+.copyright>.boxSocials{
+    position: absolute;
+    right: 0px;
+}

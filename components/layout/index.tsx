@@ -8,7 +8,7 @@ const Layout = ({children, title}: LayoutPropsI) => {
     return (
         <div className={styles.layout}>
             <Header title={title}/>
-            <main>
+            <main className={styles.main}>
                 {children}
             </main>
             <Footer />

@@ -1,0 +1,12 @@
+
+.social>ul{
+    display: flex;
+}
+
+.social>ul>li{
+    margin-left: 40px;
+}
+
+.social>ul>li:first-child{
+    margin-left:0;
+}

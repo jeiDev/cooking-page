@@ -4,4 +4,10 @@
     width: 100vw;
     overflow: hidden;
     overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1 1 auto;
 }
