@@ -1,0 +1,48 @@
+.header{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    height: 90px;
+    border: 1px solid rgba(0,0,0,.1);
+    align-items: center;
+    padding: 0 80px
+}
+
+.logo{
+    font-family: 'Lobster', cursive;
+    font-size: 1.5em;
+}
+
+.logo>.pointLogo{
+    color: #FF7426;
+}
+
+.nav{
+    flex: 1 1 auto;
+}
+
+.nav>nav>ul{
+    display: flex;
+    justify-content: center;
+}
+
+.nav>nav>ul>li{
+    margin-right: 60px;
+    font-weight: 500;
+}
+
+.nav>nav>ul>li:last-child{
+    margin-right: 0;
+}
+
+.social>ul{
+    display: flex;
+}
+
+.social>ul>li{
+    margin-left: 40px;
+}
+
+.social>ul>li:first-child{
+    margin-left:0;
+}
