@@ -1,0 +1,25 @@
+.loadBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.loadBounce{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.loadBounce>.point{
+    border-radius: 50%;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-direction: forwards;
+    margin-left: 10px;
+}
+
+.loadBounce>.point:first-child{
+    margin-left: 0px;
+}

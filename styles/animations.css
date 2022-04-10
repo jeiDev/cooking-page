@@ -1,0 +1,18 @@
+
+@keyframes loadBounceAnimation {
+    from,to {
+       transform: scale3d(1.15, 0.80, 1);
+    }
+    42% {
+      transform: translateY(-45px) ;
+    }
+    88%{
+      transform: scale3d(1,1,1);
+    }
+    95%{
+      transform:  scale3d(1.05, 0.85, 1);
+    }
+    98% {
+      transform: scale3d(1.15, 0.80, 1);
+    }
+}
