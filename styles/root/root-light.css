@@ -3,4 +3,12 @@
     --bg-secondary: #FF7426;
     --spacePadding: 80px;
     --color: black;
+
+    /*BANNER*/
+    /*If you change some of these properties, remember to change it in the root styles so that there is no improper behavior in the design or animation of the banner.*/
+    --border-banner: 35px;
+    --bg-load-banner: rgb(243, 241, 241);
+    --hidden-item-scale: 0.9;
+    --hidden-item-width: 6vw;
+    --hidden-item-margin: 2vw;
 }

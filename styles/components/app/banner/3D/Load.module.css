@@ -1,0 +1,50 @@
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+.left,
+.right,
+.center{
+    margin: 0 var(--hidden-item-margin);
+}
+
+.left{
+    margin-left: 0;
+}
+
+.right{
+    margin-right: 0;
+}
+
+
+.right, .left{
+    width: var(--hidden-item-width);
+}
+
+.center{
+    flex: 1 1 auto;
+}
+
+.item{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    filter: blur(2px);
+    background-color: var(--bg-load-banner);
+    border-radius: var(--border-banner);
+}
+
+
+.container>div:first-child>.item{
+    border-radius: 0 var(--border-banner) var(--border-banner) 0;
+    transform: scaleY(var(--hidden-item-scale));
+}
+
+.container>div:last-child>.item{
+    border-radius: var(--border-banner) 0 0 var(--border-banner);
+    transform: scaleY(var(--hidden-item-scale));
+}

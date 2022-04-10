@@ -1,0 +1,90 @@
+.container{
+    display: flex;
+    cursor: pointer;
+}
+
+.container>div{
+    flex: 1 1 auto;
+    max-width: 50%;
+    height: 100%;
+}
+
+.info{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxCategory{
+    display: flex;
+    align-items: center;
+}
+
+.boxInfo{
+    flex: 1 1 auto;
+}
+
+.category{
+    display: flex;
+    background-color: white;
+    border-radius: 40px;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.category>span{
+    font-weight: 600;
+    font-size: 0.875em;
+    position: relative;
+    margin-left: 9px;
+    top: 2.5px;
+}
+
+.title{
+    font-weight: 600;
+    font-size: 3em;
+    margin: 32px 0;
+}
+
+.description{
+    color: rgba(0,0,0,.6);
+    font-size: .9em;
+    margin: 0;
+}
+
+.infoFood{
+    display: flex;
+    margin-top: 30px;
+}
+
+.itemInfoFood{
+    background-color: rgba(0,0,0,.05);
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    border-radius: 40px;
+    margin-left: 16px;
+}
+
+.itemInfoFood:first-child{
+    margin-left: 0;
+}
+
+.itemInfoFood>span{
+    margin-left: 10px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+    font-style: normal;
+    font-weight: 500;
+}
+
+.chefInfo{
+    display: flex;
+    align-items: center;
+}
+
+.chefInfoLeft{
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+}

@@ -4,6 +4,7 @@ export const homeBannerData: Array<BannerI> = [
     {
         title: "Spicy delicious chicken wings",
         description: "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim",
+        category: "Hot Recipes",
         minutesPreparation: 30,
         typeFood: "Chicken",
         createAt: new Date(),
@@ -18,6 +19,7 @@ export const homeBannerData: Array<BannerI> = [
     {
         title: "Spicy delicious chicken wings #2",
         description: "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim",
+        category: "Hot Recipes",
         minutesPreparation: 30,
         typeFood: "Chicken",
         createAt: new Date(),
@@ -32,6 +34,7 @@ export const homeBannerData: Array<BannerI> = [
     {
         title: "Spicy delicious chicken wings #3",
         description: "Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqut enim ad minim",
+        category: "Hot Recipes",
         minutesPreparation: 30,
         typeFood: "Chicken",
         createAt: new Date(),

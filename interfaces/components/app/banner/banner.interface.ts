@@ -4,3 +4,7 @@ export interface BannerPropsI{
     items?: Array<BannerI>
     error: Boolean
 }
+
+export interface ItemBannerPropsI extends BannerI{
+    showChef?: Boolean
+}

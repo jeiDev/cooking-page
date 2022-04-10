@@ -1,0 +1,44 @@
+.container{
+    height: 680px;
+    overflow: hidden;
+    padding: 40px 0;
+}
+
+.animation{
+    transition: all ease .8s;
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+
+.item{
+    transition: all ease .8s;
+    width: calc(100vw - ((var(--hidden-item-margin) * 4) + (var(--hidden-item-width) * 2)));
+    margin: 0 var(--hidden-item-margin);
+    border-radius: var(--border-banner);
+    overflow: hidden;
+    transform: scaleY(var(--hidden-item-scale));
+    filter: blur(1px);
+}
+
+.item.active{
+    transform: inherit;
+    filter: blur(0px);
+}
+
+.item.active>div{
+    cursor: auto;
+    height: 100%;
+}
+
+.item.active .chefInfo{
+    opacity: 1!important;
+}
+
+.item:first-child{
+    margin-left: calc((var(--hidden-item-margin) * 2) + var(--hidden-item-width));
+}
+
+.item:last-child{
+    margin-right: calc((var(--hidden-item-margin) * 2) + var(--hidden-item-width));
+}
