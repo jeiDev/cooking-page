@@ -1,0 +1,31 @@
+.box{
+    border-radius: 30px;
+    overflow: hidden;
+}
+
+.box:hover{
+    background: linear-gradient(180deg, rgba(204, 38, 27, 0) 0%, rgba(204, 38, 27, 0.1) 100%);
+}
+
+.box a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box .boxImage{
+    height: 80px;
+    width: 80px;
+}
+
+.box .boxImage>img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.title{
+    font-size: .9em;
+    font-weight: 600;
+}

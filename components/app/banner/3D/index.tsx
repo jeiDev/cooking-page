@@ -7,7 +7,7 @@ import styles from "~/styles/components/app/banner/3D/Banner.module.css";
 import { BannerAnimation } from "~/settings/banner.setting";
 
 const Banner3D = ({ items }: BannerPropsI) => {
-    const [itemAtive, setItemActive] = useState(0);
+    const [itemAtive, setItemActive] = useState(1);
 
     useEffect(() => {
         if(!items || !items.length) return;

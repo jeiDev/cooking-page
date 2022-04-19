@@ -5,6 +5,8 @@ body {
   font-family: 'Inter', sans-serif;
   font-size: 16px;
   color: var(--color);
+  overflow: hidden;
+  overflow-y: auto;
 }
 
 a {

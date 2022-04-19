@@ -1,7 +1,8 @@
+import Link from "next/link";
 import Timer from "~/components/svg/icons/timer.svg";
+import PlayCircle from "~/components/svg/icons/play-circle.svg";
 import ForkKnife from "~/components/svg/icons/fork-knife.svg";
 import styles from "~/styles/components/app/banner/3D/Item.module.css";
-import Link from "next/link";
 import { ItemBannerPropsI } from "~/interfaces/components/app/banner/banner.interface";
 
 const ItemBanner3D = (props: ItemBannerPropsI) => {
@@ -38,24 +39,23 @@ const ItemBanner3D = (props: ItemBannerPropsI) => {
                         <div>
                             <img src="/images/users/1.png" alt="" />
                         </div>
-                        <div>
+                        <div className={styles.right}>
                             <Link href="#">
                                 <a>
                                     <h4>{chef.fistName} {chef.lastName}</h4>
-                                    <span>{createfAt}</span>
                                 </a>
                             </Link>
+                            <span>{createfAt}</span>
                         </div>
                     </div>
                     <div className={styles.chefInfoRight}>
-                        <div>
-                            <span>View Recipes</span>
-                        </div>
+                        <span>View Recipes</span>
+                        <PlayCircle />
                     </div>
                 </div>
             </div>
             <div className={styles.background}>
-                <img src="/images/foods/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png" alt="" />
+                <img src={`${props.image}`} alt="" />
             </div>
         </div>
     )

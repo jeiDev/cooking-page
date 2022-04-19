@@ -9,7 +9,7 @@ export const homeBannerData: Array<BannerI> = [
         typeFood: "Chicken",
         createAt: new Date(),
         bgColor: "#E7FAFE",
-        image: "",
+        image: "/images/foods/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
         chef: {
             uuid: "bf715d91-ff81-4d04-a1e7-04ed11e44f5e",
             fistName: "John",
@@ -24,7 +24,7 @@ export const homeBannerData: Array<BannerI> = [
         typeFood: "Chicken",
         createAt: new Date(),
         bgColor: "#E7FAFE",
-        image: "",
+        image: "/images/foods/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
         chef: {
             uuid: "bf715d91-ff81-4d04-a1e7-04ed11e44f5e",
             fistName: "John",
@@ -39,7 +39,7 @@ export const homeBannerData: Array<BannerI> = [
         typeFood: "Chicken",
         createAt: new Date(),
         bgColor: "#E7FAFE",
-        image: "",
+        image: "/images/foods/baked-chicken-wings-asian-style-tomatoes-sauce-plate 1.png",
         chef: {
             uuid: "bf715d91-ff81-4d04-a1e7-04ed11e44f5e",
             fistName: "John",
