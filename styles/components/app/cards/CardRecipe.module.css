@@ -1,0 +1,78 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+    padding: 32px 16px;
+    border-radius: 30px;
+    margin-bottom: 40px;
+}
+
+.containerImage{
+    position: relative;
+}
+
+.heart{
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.heart svg{
+    fill: #DBE2E5;
+    transition: all ease .2s;
+}
+
+.heart:hover svg,
+.heart.active svg{
+    fill: red;
+}
+
+.boxImage{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+.boxImage img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.information{
+    padding-left: 8px;
+}
+
+.information h3{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.group span{
+    padding-left: 8px;
+}

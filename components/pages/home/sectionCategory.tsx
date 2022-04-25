@@ -26,7 +26,7 @@ const SectionCategory = () => {
                 title="Categories"
                 subTitle={() => (
                     <Link href="#">
-                        <a style={{fontSize: ".8em"}}>View All Categories</a>
+                        <a style={{fontSize: "1em"}}>View All Categories</a>
                     </Link>
                 )}
             >

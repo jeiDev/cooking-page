@@ -1,7 +1,7 @@
 import { ReactNode } from "react";
 
-export interface ContainerBetweenPropsI {
+export interface ContainerPropsI {
     children: ReactNode
     title: String
-    subTitle: Function
+    subTitle: Function | String
 }

@@ -20,7 +20,7 @@ const Banner3D = ({ items }: BannerPropsI) => {
         <div className={styles.container}>
             {!items ?
                 (<LoadBanner3D />) :
-                (<div
+                (<div        
                     className={styles.animation}
                     style={{
                         width: `${(items?.length || 0) * 100}vw`,
@@ -41,7 +41,6 @@ const Banner3D = ({ items }: BannerPropsI) => {
                     ))}
                 </div>)
             }
-
         </div>
     )
 }

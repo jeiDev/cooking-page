@@ -10,8 +10,8 @@ const ItemBanner3D = (props: ItemBannerPropsI) => {
     const createfAt = new Date(props.createAt).toDateString();
 
     return (
-        <div className={styles.container}>
-            <div className={styles.info} style={{backgroundColor: `${props.bgColor}`}}>
+        <div className={styles.container} style={{backgroundColor: `${props.bgColor}`}}>
+            <div className={styles.info}>
                 <div className={styles.boxCategory}>
                     <Link href="#">
                         <div className={styles.category}>
